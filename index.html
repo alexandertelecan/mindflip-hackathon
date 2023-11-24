@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MemoFlip</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins|Quicksand"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="stats">
+        <div class="header">
+          <div class="header-text">
+            <h1>MemoFlip</h1>
+            <p>Train your memory.</p>
+          </div>
+          <div class="stats-text">
+            <div>
+              <p class="stats-text-paragraph">Score:</p>
+              <p class="stats-text-paragraph">Time left:</p>
+              <p class="stats-text-paragraph">Category:</p>
+            </div>
+            <div>
+              <p id="score">0 points</p>
+              <p id="timer">00:00</p>
+              <p id="category"></p>
+            </div>
+          </div>
+        </div>
+        <div class="controls">
+          <button id="start-game">Start New Game</button>
+        </div>
+      </div>
+      <div class="cards-container"></div>
+    </div>
+  </body>
+</html>
